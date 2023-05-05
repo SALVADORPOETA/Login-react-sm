@@ -23,9 +23,8 @@ export default function Login() {
                 <button className='border w-full my-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white'>Sign In</button>
                 <div className='flex justify-between'>
                     <p className='flex items-center'>
-                        <label id='checkbox' ></label> 
-                        <input aria-labelledby='checkbox' className='mr-2' type="checkbox" />
-                        Remember Me
+                        <input id='checkbox' className='mr-2' type="checkbox" />
+                        <label for='checkbox' >Remember Me</label> 
                     </p>
                     <p>Create an account</p>
                 </div>
